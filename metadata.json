@@ -1,0 +1,8 @@
+{
+  "name": "Imóvel Gramado | Imóveis em Gramado & Canela",
+  "description": "Portfólio imobiliário exclusivo e curadoria de imóveis de alto padrão na Serra Gaúcha.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

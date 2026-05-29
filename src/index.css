@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Cormorant Garamond', serif;
+  --font-sans: 'Plus Jakarta Sans', sans-serif;
+
+  --color-gold-50: #fbf9f4;
+  --color-gold-100: #f4ecda;
+  --color-gold-200: #e7d8b5;
+  --color-gold-300: #d6be8c;
+  --color-gold-400: #c4a163;
+  --color-gold-500: #b89b5e;
+  --color-gold-600: #9e7f47;
+  --color-gold-700: #7e6136;
+  --color-gold-800: #624b2b;
+  --color-gold-900: #513d25;
+  --color-gold-950: #2c1f11;
+  
+  --color-luxury-black: #050505;
+  --color-luxury-charcoal: #0c0c0c;
+  --color-luxury-gray: #151515;
+}
+
+/* Custom fade animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(15px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
+/* Gold text gradient effect */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #f4ecda 0%, #b89b5e 50%, #9e7f47 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Glassmorphism for cards */
+.glass-panel {
+  background: rgba(20, 20, 20, 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(209, 177, 84, 0.1);
+}
+
+.glass-panel-hover:hover {
+  border-color: rgba(209, 177, 84, 0.35);
+  background: rgba(26, 26, 26, 0.8);
+  box-shadow: 0 10px 30px -15px rgba(174, 128, 34, 0.2);
+}
