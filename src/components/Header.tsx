@@ -54,7 +54,7 @@ export default function Header({ onOpenContact }: HeaderProps) {
             id="brand-logo"
           >
             <span className="text-lg md:text-xl font-serif text-white uppercase tracking-[0.25em] group-hover:text-gold-300 transition-colors">
-              Imóvel Gramado
+              Stein Imóveis
             </span>
             <span className="text-[9px] uppercase tracking-[0.34em] text-gold-400 font-mono font-medium">
               Assessoria Imobiliária
@@ -83,7 +83,7 @@ export default function Header({ onOpenContact }: HeaderProps) {
               rel="noreferrer"
               className="text-gray-400 hover:text-gold-400 transition-colors p-2"
               title="Instagram @arturstein"
-              aria-label="Instagram Imóvel Gramado"
+              aria-label="Instagram Stein Imóveis"
               referrerPolicy="no-referrer"
             >
               <Instagram className="w-4 h-4" />

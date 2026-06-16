@@ -24,13 +24,13 @@ export default function ImoveisDestaque({ onOpenWithPrefill }: ImoveisDestaquePr
               Portfólio Sublime
             </span>
             <h2 className="text-3xl md:text-5xl font-serif text-white leading-tight font-light">
-              Imóveis Selecionados em <br />
+              Categorias em <br />
               <span className="italic text-gold-gradient font-normal">Destaque</span>
             </h2>
           </div>
           <div className="hidden md:block text-right">
             <p className="text-xs text-gray-500 font-mono uppercase tracking-widest leading-relaxed">
-              Propriedades singulares para quem busca sofisticação e conforto na Serra Gaúcha.
+              Encontre a opção ideal para seu momento, de projetos na planta a refúgios rurais exclusivos.
             </p>
           </div>
         </div>
@@ -129,7 +129,7 @@ export default function ImoveisDestaque({ onOpenWithPrefill }: ImoveisDestaquePr
         {/* Minimal Disclaimer Footer */}
         <div className="text-center mt-12">
           <p className="text-xs text-gray-500 font-sans font-light">
-            Não encontrou o que buscava? Imóvel Gramado realiza buscas sob ementa (off-market e parcerias estratégicas).
+            Não encontrou o que buscava? Stein Imóveis realiza buscas sob ementa (off-market e parcerias estratégicas).
           </p>
         </div>
       </div>

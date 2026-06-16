@@ -17,7 +17,7 @@ export default function Footer() {
           <div className="md:col-span-5 flex flex-col gap-4">
             <div className="flex flex-col tracking-wider">
               <span className="text-xl font-serif text-white uppercase tracking-[0.25em]">
-                Imóvel Gramado
+                Stein Imóveis
               </span>
               <span className="text-[10px] uppercase tracking-[0.34em] text-gold-400 font-mono font-medium">
                 Assessoria Imobiliária
@@ -94,7 +94,7 @@ export default function Footer() {
           </div>
 
           <div className="flex items-center gap-4">
-            <span>© {new Date().getFullYear()} Imóvel Gramado. Todos os direitos reservados.</span>
+            <span>© {new Date().getFullYear()} Stein Imóveis. Todos os direitos reservados.</span>
             <button 
               onClick={handleScrollToTop}
               className="p-2 rounded-full bg-luxury-gray border border-gray-900 text-gray-500 hover:text-white hover:border-gold-500/20 transition-all duration-300 cursor-pointer"
